@@ -1,0 +1,20 @@
+{
+  // "include": ["src/**/*"],
+  // "exclude": ["jest.config.ts", "tests/**/*"],
+  "compilerOptions": {
+    "target": "es2022",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "types": ["node", "jest"],
+    "esModuleInterop": true,
+    "moduleResolution": "node10",
+    "lib": ["es2022", "esnext.disposable"]
+  },
+  "files": ["src/ktdreader.ts", "src/seek-bzip.d.ts"]
+}
